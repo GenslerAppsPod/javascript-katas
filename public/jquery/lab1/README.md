@@ -17,6 +17,10 @@ This Lab-1 teaches you how to create a new tool.
 
  A new directory will be created in the "public/tool" directory with the starter files (html, CSS and JS file). Additionally, skeleton qUnit files will be generated in the "tests/unit" directory.
 
+ Now go to terminal and type:
+
+  $ node server.js
+
  Now you can go to the browser and type:
 
   http://localhost:portno/ tool/your-tool-name/mobile-test.html
