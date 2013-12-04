@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html height="100%">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Brendan Boyd">
+		<title>Archi Tool Test Page</title>
+		<!-- libs -->
+        <link rel="stylesheet" href='../../../../lib/normalize.css'>
+        <script src="../../lib/jquery.ui/js/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="../../lib/jquery.mobile-1.4.0-rc.1/jquery.mobile-1.4.0-rc.1.js"></script>
+        <link rel="stylesheet" href="../../lib/jquery.mobile-1.4.0-rc.1/jquery.mobile-1.4.0-rc.1.css">
+        <!-- gensler -->
+        <link rel="stylesheet" href='../../../../css/font/font.css'>
+        <!-- tool -->
+        <link rel="stylesheet" href='archi-tool.css'>
+        <script src="archi-tool.js"></script>
+        <!-- test -->
+        <script>
+            $(function () {
+                // test buttons: create
+                var create = $('<div style="margin:10px;">Create</div>');
+                $('.ui-content').append(create);
+                create.button().click(
+                function () {
+					// create a tool
+                    architool.architool();
+                    // get the tool instance
+                    // var tool = $('.architool').data('gensler-architool');
+                });
+                
+                // test buttons: destroy
+                var destroy = $('<div style="margin:10px;">Destroy</div>');
+                $('.ui-content').append(destroy);
+                destroy.button().click(
+                function () {
+                    // destroy a tool
+                    architool.architool('destroy');
+                });
+
+                // create a single-page app
+                var architool = $('<div class="architool"></div>');
+                $('.ui-content').append(architool);
+                
+            });
+        </script>
+    </head>
+    
+    <body>
+		<div data-role="page" style="text-shadow:none;">
+
+			<div data-role="header">
+				<h1>Gensler Archi Tool</h1>
+			</div><!-- /header -->
+
+			<div role="main" class="ui-content">
+				
+			</div><!-- /content -->
+
+			<div data-role="footer">
+				<h4 style="font-family:KievitLight;">© Gensler 2013</h4>
+			</div><!-- /footer -->
+
+		</div><!-- /page -->
+    </body>
+
+</html>
