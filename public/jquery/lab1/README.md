@@ -10,7 +10,7 @@ This Lab-1 teaches you how to create a new tool.
 
  To create a new tool you cd to the project directory and type:
 
-  $ grunt newtool:lab1-tool
+    $ grunt newtool:lab1-tool
 
  
 
@@ -18,10 +18,10 @@ This Lab-1 teaches you how to create a new tool.
 
  Now go to terminal and type:
 
-  		$ node server.js
+    $ node server.js
 
  Now you can go to the browser and type:
 
-  		http://localhost:portno/ tool/lab1-toolmobile-test.html
+    http://localhost:portno/ tool/lab1-tool/mobile-test.html
  Here, 
- portno- The port number depends on the environment you are in (development, localdev or production).  To know the port no go to config directory there are 3 files with the environment names and get the port number inside it.
+ portno- The port number depends on the environment you are in (development, localdev or production).
