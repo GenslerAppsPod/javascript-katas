@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html height="100%">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Kirk Austin">
+        <title>Archi Tool Test Page</title>
+        <!-- libs -->
+        <link rel="stylesheet" href='../../lib/normalize.css'>
+        <script src="../../lib/jquery-ui/js/jquery-1.9.0.min.js"></script>
+        <script src="../../lib/jquery.tmpl.js"></script>
+        <link rel="stylesheet" href='../../lib/jquery-ui/css/smoothness/jquery-ui-1.10.0.custom.min.css'>
+        <script src="../../lib/jquery-ui/js/jquery-ui-1.10.0.custom.min.js"></script>
+        <!-- gensler -->
+        <link rel="stylesheet" href='../../css/font/font.css'>
+        <link rel="stylesheet" href='../../css/jquery-ui-gui-overrides.css'>
+        <!-- tool -->
+        <link rel="stylesheet" href='archi-tool.css'>
+        <script src="archi-tool.js"></script>
+        <script>
+            $(function () {
+                // test buttons: create
+                var create = $('<div style="margin:10px;">Create</div>');
+                $('body').append(create);
+                create.button().click(
+
+                function () {
+                    // create a tool
+                    architool.architool();
+                    // get the tool instance
+                    // var tool = $('.architool').data('gensler-architool');
+                });
+
+                // test buttons: destroy
+                var destroy = $('<div style="margin:10px;">Destroy</div>');
+                $('body').append(destroy);
+                destroy.button().click(
+
+                function () {
+                    // destroy a tool
+                    architool.architool('destroy');
+                });
+
+                // create a single-page app
+                var architool = $('<div class="architool"></div>');
+                $('body').append(architool);
+
+            });
+        </script>
+    </head>
+    
+    <body height="100%">
+        <!-- body intentionally left blank -->
+    </body>
+
+</html>
