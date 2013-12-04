@@ -15,14 +15,14 @@ This project provides a boilerplate and guide for exercising your javascript ski
 
 7. Push code to your branch on github by using the command,
 
-       git push
+        git push
        
-8. Make a pull request for someone to review your code just read the [documentation](https://help.github.com/articles/using-pull-requests). 
+8. Make a pull request for someone to review your code just read the [documentation]
+(https://help.github.com/articles/using-pull-requests). 
 
 ## JQuery Labs
 
-All of our custom tools are built using the jQuery Widget Factory. Before doing any labs, read the widget factory [documentation](http://blog.anselmbradford.com/2009/04/09/object-oriented-javascript-tip-creating-static-methods-instance-methods/
-http://elegantcode.com/2011/01/19/basic-javascript-part-7-static-properties-and-methods/).
+All of our custom tools are built using the jQuery Widget Factory. Before doing any labs, read the widget factory [documentation](http://learn.jquery.com/plugins/stateful-plugins-with-widget-factory/).
 
 <a href="public/jquery/lab1/README.md"> - Lab 1: Create a new tool.</a><br>
 <a href="public/jquery/lab2/README.md"> - Lab 2: Subscribe to create & destroy events lab.</a><br>
