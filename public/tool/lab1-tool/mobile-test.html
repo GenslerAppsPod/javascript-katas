@@ -4,17 +4,17 @@
     <head>
         <meta charset="utf-8">
         <meta name="author" content="">
-		<title>my-first-tool test page</title>
+		<title>lab1-tool test page</title>
 		<!-- libs -->
         <link rel="stylesheet" href='../../../../lib/normalize.css'>
-        <script src="../../../lib/jquery.ui/js/jquery-1.9.1.js"></script>
+        <script src="../../lib/jquery.ui/js/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="../../lib/jquery.mobile-1.4.0-rc.1/jquery.mobile-1.4.0-rc.1.js"></script>
         <link rel="stylesheet" href="../../lib/jquery.mobile-1.4.0-rc.1/jquery.mobile-1.4.0-rc.1.css">
         <!-- gensler -->
         <link rel="stylesheet" href='../../../../css/font/font.css'>
         <!-- tool -->
-        <link rel="stylesheet" href='my-first-tool.css'>
-        <script src="my-first-tool.js"></script>
+        <link rel="stylesheet" href='lab1-tool.css'>
+        <script src="lab1-tool.js"></script>
         <!-- test -->
         <script>
             $(function () {
@@ -24,9 +24,9 @@
                 create.button().click(
                 function () {
 					// create a tool
-                    myfirsttool.myfirsttool();
+                    lab1tool.lab1tool();
                     // get the tool instance
-                    // var tool = $('.myfirsttool').data('gensler-myfirsttool');
+                    // var tool = $('.lab1tool').data('gensler-lab1tool');
                 });
                 
                 // test buttons: destroy
@@ -35,12 +35,12 @@
                 destroy.button().click(
                 function () {
                     // destroy a tool
-                    myfirsttool.myfirsttool('destroy');
+                    lab1tool.lab1tool('destroy');
                 });
 
                 // create a single-page app
-                var myfirsttool = $('<div class="myfirsttool"></div>');
-                $('.ui-content').append(myfirsttool);
+                var lab1tool = $('<div class="lab1tool"></div>');
+                $('.ui-content').append(lab1tool);
                 
             });
         </script>
@@ -50,7 +50,7 @@
 		<div data-role="page" style="text-shadow:none;">
 
 			<div data-role="header">
-				<h1>my-first-tool</h1>
+				<h1>lab1-tool</h1>
 			</div><!-- /header -->
 
 			<div role="main" class="ui-content">
