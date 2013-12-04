@@ -19,6 +19,9 @@ This project provides a boilerplate and guide for exercising your javascript ski
     git pull
 
 ## JQuery Labs
+
+All of our custom tools are built using the jQuery Widget Factory. Before doing any labs, read the widget factory [documentation]().
+
 <a href="public/jquery/lab1/README.md"> - Lab 1: Create a new tool.</a><br>
 <a href="public/jquery/lab2/README.md"> - Lab 2: Subscribe to create & destroy events lab.</a><br>
 <a href="public/jquery/lab3/README.md"> - Lab 3: Public, private, and static properties and functions.</a>
