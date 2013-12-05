@@ -6,7 +6,9 @@ This Lab-3 teaches you how to create public, private, and static propertis and f
 
 Create the new tool using lab1,using the command:
 
- 	$ grunt newtool:lab3-tool
+ 	  $ grunt newtool:lab3-tool
+ 	  
+Create public, private and static variable as given below,  
 
     $.widget("gensler.lab3tool", {
         // public class variables go here
