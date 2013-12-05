@@ -9,7 +9,7 @@ Also, you will learn how to add children divs to the created div using the utili
 
  Create the new tool using lab1,using the command:
 
- 		$ grunt newtool:lab4-tool
+ 	$ grunt newtool:lab4-tool
 
 
 Open lab lab4-tool.js in the editor and add a private method to create the div. As given below:
