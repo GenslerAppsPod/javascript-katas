@@ -4,3 +4,21 @@
     font-family:Verdana, sans-serif; /* resist the temptation to stack the fonts */
     font-weight:normal;
 }
+
+/*table{background:#CCC;border:1px solid #000;}
+table td{padding:15px;border:1px solid #DDD;}*/
+.gensler-lab6tool-table{
+left:40px;
+top:220px;
+right:0px;
+width:200px;
+height:200px;
+text-align: center;
+}
+.gensler-lab6tool-table td{
+padding:10px;
+margin:10px;
+border:1px solid #ccc;
+}
+
+

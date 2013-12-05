@@ -54,6 +54,7 @@ if (!window.console.log) {
         // private methods begin with an underscore
         // jQuery UI Widget override
         _create: function () {
+
             this.options.instance.element = this.element;
             this.options.instance.tool = this;
             // private instance variables begin with an underscore
@@ -65,6 +66,15 @@ if (!window.console.log) {
             // the "ui-widget" class declares it a jQuery UI widget
             this.element.addClass(this.widgetFullName + ' ui-widget');
             // inject DOM elements and bind event handlers
+        
+            // Table creation
+            this._createTables('table');
+            this.element.append(this._getElement('table'));
+            var row1 = "<tr><td>a</td><td>b</td></tr>";
+            var row2 = "<tr><td>a</td><td>b</td></tr>";
+            this._getElement('table').append(row1,row2);
+            
+
         },
 
         // jQuery UI Widget override
@@ -109,6 +119,8 @@ if (!window.console.log) {
         _getElement: function (name) {
             return this._elementMap[name];
         },
+
+        
 
         _createTables: function (names) {
             // cache some tables to be injected/removed later

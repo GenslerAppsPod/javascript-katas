@@ -4,9 +4,7 @@ This Lab-3 teaches you how to create public, private, and static propertis and f
 
 ## Instructions:
 
-Create the new tool using lab1,using the command:
-
- 	  $ grunt newtool:lab3-tool
+Create the new tool using lab1
  	  
 Create public, private and static variable as given below,  
 
@@ -17,10 +15,7 @@ Create public, private and static variable as given below,
         options: {
             title: 'Title',
             instance: {
-                element: undefined, // filled in during create
-                namespace: 'gensler',
                 name: 'lab3tool',
-                tool: undefined // filled in during create
             },
             //private instance variable go here
             _create: function() {
