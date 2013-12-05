@@ -24,10 +24,10 @@ Open lab lab4-tool.js in the editor and add a private method to create the div. 
               self._injectHtml({
                     'card-container': ['add-row','add-column']
               });
-
+              
+	      		//Now append to the .ui-content.You will learn _getElement method in Lab5.
               $('.ui-content').append(self._getElement('card-container')); 
-
-        }
+	}
  
  Call the method _createDiv from _create method:
 
@@ -38,7 +38,10 @@ Open lab lab4-tool.js in the editor and add a private method to create the div. 
 
  A div is created in the DOM and appended to the .ui-cointent. Please inspect the code in browser you will see the below DOM element:
 
- 	<div class="gensler-lab4tool-card-container"><div class="gensler-lab4tool-add-row"></div><div class="gensler-lab4tool-add-column"></div></div>
+ 	<div class="gensler-lab4tool-card-container">
+ 		<div class="gensler-lab4tool-add-row"></div>
+ 		<div class="gensler-lab4tool-add-column"></div>
+ 	</div>
 
 
 
