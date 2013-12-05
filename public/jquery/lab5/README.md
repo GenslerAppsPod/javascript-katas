@@ -13,17 +13,10 @@ This Lab-5 teaches you how to  get elemnt created in the DOM using the utility f
 	
 
       _styleElement:function(){
-             var self=this;
+                var self=this;
                //Set styling for card-container,add-column and add-row
                 self._setStyle('card-container',"position:relative;border:1px solid yellow;height:85px;width:100px;background:#ffc;border:1px solid yellow;box-shadow:-2px 2px 5px 3px #ccc;color:red !important;overflow:visible !important;background:#ffc !important;text-align: center;width:175px;margin:5px;");
-
-                self._setStyle('add-column',"float:right;height:85px;width:20px;background:red;color:white;text-align:center;line-height:85px;");
-                self._setStyle('add-row',"position:absolute;bottom:0px;float:left;height:20px;width:89%;background:red;color:white;text-align:center;");
-
-                //Get add-column and add-row divs from the memory using _getElement() method and set text.
-                self._getElement('add-column').text("+");
-                self._getElement('add-row').text("+");
-      },
+      }
 
  
  Call the method _styleElement from _createDiv ( _createDiv method is implemented in lab4) method:
