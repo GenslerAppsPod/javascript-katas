@@ -28,11 +28,7 @@ if (!window.console.log) {
                 name: 'lab3tool',
                 tool: undefined // filled in during create
             },
-            _create: function() {
-
-                this.instanceVar = "huzzah!"
-                return this.instanceVar;
-            },
+            
             // callbacks
             create: function (event, data) {
                 // pass a callback,or simply bind on the "lab3tool:create" event, or both
@@ -62,7 +58,6 @@ if (!window.console.log) {
 
             console.log("public static variable: ", this.version);
             console.log("public instance variable:", this.options.instance.name);
-            console.log("private instance variable:", this.options._create());
             this.options.instance.element = this.element;
             this.options.instance.tool = this;
 
