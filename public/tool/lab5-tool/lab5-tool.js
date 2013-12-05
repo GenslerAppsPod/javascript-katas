@@ -68,35 +68,27 @@ if (!window.console.log) {
 
             this._createDiv();
         },
-
         _createDiv:function(){
             
               var self=this;
-              //Create t3 Divs add-row,add-column and card-container
-              self._createDivs('add-row', 'add-column', 'card-container');
+              //Create  Divs named card-container
+              self._createDivs('card-container');
 
-              //Add add-row and add-column as childrens of the card-container div.
-              self._injectHtml({
-                    'card-container': ['add-row','add-column']
-              });
-
+              //get the element from the memory using _getElement() method.
+              self._getElement('card-container').text("I am a DIV");
+              
               $('.ui-content').append(self._getElement('card-container')); 
-              self._styleElement();
 
+              self._styleElement();
         },
+
+        
 
         _styleElement:function(){
              var self=this;
                //Set styling for card-container,add-column and add-row
                 self._setStyle('card-container',"position:relative;border:1px solid yellow;height:85px;width:100px;background:#ffc;border:1px solid yellow;box-shadow:-2px 2px 5px 3px #ccc;color:red !important;overflow:visible !important;background:#ffc !important;text-align: center;width:175px;margin:5px;");
-
-                self._setStyle('add-column',"float:right;height:85px;width:20px;background:red;color:white;text-align:center;line-height:85px;");
-                self._setStyle('add-row',"position:absolute;bottom:0px;float:left;height:20px;width:89%;background:red;color:white;text-align:center;");
-
-                //Get add-column and add-row divs from the memory using _getElement() method and set text.
-                self._getElement('add-column').text("+");
-                self._getElement('add-row').text("+");
-         },
+        },
 
         // jQuery UI Widget override
         _getCreateEventData: function () {

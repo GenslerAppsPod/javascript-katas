@@ -1,4 +1,4 @@
-// Gensler lab4-tool
+// Gensler lab8-tool
 // author: 
 // History of the software term tool: http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html
 // ensure our namespace
@@ -16,7 +16,7 @@ if (!window.console.log) {
 
 (function (gensler, $, undefined) {
 
-    $.widget("gensler.lab4tool", {
+    $.widget("gensler.lab8tool", {
         // public class variables go here
         version: "0.1.0", // http://semver.org
         // public instance variables are in options
@@ -25,22 +25,22 @@ if (!window.console.log) {
             instance: {
                 element: undefined, // filled in during create
                 namespace: 'gensler',
-                name: 'lab4tool',
+                name: 'lab8tool',
                 tool: undefined // filled in during create
             },
             // callbacks
             create: function (event, data) {
-                // pass a callback,or simply bind on the "lab4tool:create" event, or both
+                // pass a callback,or simply bind on the "lab8tool:create" event, or both
                 //console.log(event, '--callback create event')
                 //console.log(data, '--callback create data')
             },
             change: function (event, data) {
-                // pass a callback,or simply bind on the "lab4tool:change" event, or both
+                // pass a callback,or simply bind on the "lab8tool:change" event, or both
                 //console.log(event, '--callback change event');
                 //console.log(data, '--callback change data');
             },
             destroy: function (event, data) {
-                // pass a callback,or simply bind on the "lab4tool:destroy" event, or both
+                // pass a callback,or simply bind on the "lab8tool:destroy" event, or both
                 //console.log(event, '--callback destroy event');
                 //console.log(data, '--callback destroy data');
             }
@@ -66,17 +66,35 @@ if (!window.console.log) {
             this.element.addClass(this.widgetFullName + ' ui-widget');
             // inject DOM elements and bind event handlers
 
-            //Call _createDiv private method to create the Div.
             this._createDiv();
         },
 
         _createDiv:function(){
             
               var self=this;
-              //Create  Divs named card-container
-              self._createDivs('card-container');
-              $('.ui-content').append(self._getElement('card-container')); 
-        },
+              //create 3 divs in memory
+              self._createDivs('add-row', 'add-column', 'card-container');
+
+               //Inject add-column and add-row div into card-container div.
+                self._injectHtml({
+                    'card-container': ['add-row','add-column']
+                });
+
+               //Set styling for card-container,add-column and add-row
+                self._setStyle('card-container',"position:relative;border:1px solid yellow;height:85px;width:100px;background:#ffc;border:1px solid yellow;box-shadow:-2px 2px 5px 3px #ccc;color:red !important;overflow:visible !important;background:#ffc !important;text-align: center;width:175px;margin:5px;");
+
+                self._setStyle('add-column',"float:right;height:85px;width:20px;background:red;color:white;text-align:center;line-height:85px;");
+                self._setStyle('add-row',"position:absolute;bottom:0px;float:left;height:20px;width:89%;background:red;color:white;text-align:center;");
+
+                //set text for the add row and column div (working as button)
+                self._getElement('add-column').text("+");
+                self._getElement('add-row').text("+");
+
+
+                $('.ui-content').append(self._getElement('card-container')); 
+         },
+
+       
 
         // jQuery UI Widget override
         _getCreateEventData: function () {
