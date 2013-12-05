@@ -30,9 +30,9 @@ All of our custom tools are built using the jQuery Widget Factory. Before doing 
   
   <a href="public/jquery/lab3/README.md"> - Lab 3: Public, private, and static properties and functions.</a>
   
-  <a href="public/jquery/lab4/README.md"> - Lab 4: Get element.</a>
+  <a href="public/jquery/lab4/README.md"> - Lab 4: Get element & Set style.</a>
   
-  <a href="public/jquery/lab5/README.md"> - Lab 5: Set style.</a>
+  <a href="public/jquery/lab5/README.md"> - Lab 5: Create divs.</a>
   
   <a href="public/jquery/lab6/README.md"> - Lab 6: Create spans.</a>
   
