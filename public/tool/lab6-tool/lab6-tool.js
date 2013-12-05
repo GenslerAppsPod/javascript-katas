@@ -68,7 +68,7 @@ if (!window.console.log) {
             // inject DOM elements and bind event handlers
         
             // Table creation
-            this._createTables('table');
+            this._createSpans('table');
             this.element.append(this._getElement('table'));
             var row1 = "<tr><td>a</td><td>b</td></tr>";
             var row2 = "<tr><td>a</td><td>b</td></tr>";
