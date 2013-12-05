@@ -26,14 +26,14 @@ This Lab-5 teaches you how to  get elemnt created in the DOM using the utility f
       },
 
  
- Call the method _styleElement from _createDiv (_createDiv method is created in lab4) method:
+ Call the method _styleElement from _createDiv ( _createDiv method is implemented in lab4) method:
 
  	  this._styleElement();
 
 
 Now, run the server.js and open the tool in the browser.
 
-A div with add-column and add-row is displayed in browser.Also,Please inspect the code in browser.
+A div with add-column and add-row is displayed in browser.Please inspect the code in browser.
 
  	
 
