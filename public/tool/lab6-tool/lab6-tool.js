@@ -1,4 +1,4 @@
-// Gensler lab3-tool
+// Gensler lab6-tool
 // author: 
 // History of the software term tool: http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html
 // ensure our namespace
@@ -16,7 +16,7 @@ if (!window.console.log) {
 
 (function (gensler, $, undefined) {
 
-    $.widget("gensler.lab3tool", {
+    $.widget("gensler.lab6tool", {
         // public class variables go here
         version: "0.1.0", // http://semver.org
         // public instance variables are in options
@@ -25,27 +25,22 @@ if (!window.console.log) {
             instance: {
                 element: undefined, // filled in during create
                 namespace: 'gensler',
-                name: 'lab3tool',
+                name: 'lab6tool',
                 tool: undefined // filled in during create
-            },
-            _create: function() {
-
-                this.instanceVar = "huzzah!"
-                return this.instanceVar;
             },
             // callbacks
             create: function (event, data) {
-                // pass a callback,or simply bind on the "lab3tool:create" event, or both
+                // pass a callback,or simply bind on the "lab6tool:create" event, or both
                 //console.log(event, '--callback create event')
                 //console.log(data, '--callback create data')
             },
             change: function (event, data) {
-                // pass a callback,or simply bind on the "lab3tool:change" event, or both
+                // pass a callback,or simply bind on the "lab6tool:change" event, or both
                 //console.log(event, '--callback change event');
                 //console.log(data, '--callback change data');
             },
             destroy: function (event, data) {
-                // pass a callback,or simply bind on the "lab3tool:destroy" event, or both
+                // pass a callback,or simply bind on the "lab6tool:destroy" event, or both
                 //console.log(event, '--callback destroy event');
                 //console.log(data, '--callback destroy data');
             }
@@ -59,13 +54,8 @@ if (!window.console.log) {
         // private methods begin with an underscore
         // jQuery UI Widget override
         _create: function () {
-
-            console.log("public static variable: ", this.version);
-            console.log("public instance variable:", this.options.instance.name);
-            console.log("private instance variable:", this.options._create());
             this.options.instance.element = this.element;
             this.options.instance.tool = this;
-
             // private instance variables begin with an underscore
             this._elementMap = {};
             // prepare for post 1.9, event prefix is separated with a colon
@@ -76,8 +66,7 @@ if (!window.console.log) {
             this.element.addClass(this.widgetFullName + ' ui-widget');
             // inject DOM elements and bind event handlers
         },
-       
-        
+
         // jQuery UI Widget override
         _getCreateEventData: function () {
             // data object to be returned by the "create" event
@@ -118,7 +107,6 @@ if (!window.console.log) {
         },
 
         _getElement: function (name) {
-            
             return this._elementMap[name];
         },
 
