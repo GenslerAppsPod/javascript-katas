@@ -75,20 +75,20 @@ if (!window.console.log) {
               self._createDivs('card-container');
 
               //get the element from the memory using _getElement() method.
-              self._getElement('card-container').text("I am a DIV");
+              self._getElement('card-container').text("I am DIV");
               
               $('.ui-content').append(self._getElement('card-container')); 
 
-              self._styleElement();
+              //self._styleElement();
         },
 
         
 
-        _styleElement:function(){
+       /* _styleElement:function(){
              var self=this;
                //Set styling for card-container,add-column and add-row
                 self._setStyle('card-container',"position:relative;border:1px solid yellow;height:85px;width:100px;background:#ffc;border:1px solid yellow;box-shadow:-2px 2px 5px 3px #ccc;color:red !important;overflow:visible !important;background:#ffc !important;text-align: center;width:175px;margin:5px;");
-        },
+        }, */
 
         // jQuery UI Widget override
         _getCreateEventData: function () {

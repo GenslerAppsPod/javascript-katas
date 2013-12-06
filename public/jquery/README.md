@@ -11,12 +11,14 @@ All of our custom tools are built using the jQuery Widget Factory. Before doing 
   
   <a href="lab4/README.md"> - Lab 4: Create divs.</a>
   
-  <a href="lab5/README.md"> - Lab 5: Get element & Set style.</a>
+  <a href="lab5/README.md"> - Lab 5: Get element.</a>
+
+  <a href="lab6/README.md"> - Lab 6: Set style.</a>
   
-  <a href="lab6/README.md"> - Lab 6: Create spans.</a>
+  <a href="lab7/README.md"> - Lab 7: Create spans.</a>
   
-  <a href="lab7/README.md"> - Lab 7: Create tables.</a>
+  <a href="lab8/README.md"> - Lab 8: Create tables.</a>
   
-  <a href="lab8/README.md"> - Lab 8: Inject html.</a>
+  <a href="lab9/README.md"> - Lab 9: Inject html.</a>
   
-  <a href="lab9/README.md"> - Lab 9: Set options.</a>
+  <a href="lab10/README.md"> - Lab 10: Set options.</a>

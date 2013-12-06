@@ -6,27 +6,37 @@ This Lab-5 teaches you how to  get elemnt created in the DOM using the utility f
 
 ## Instructions:
 
- Follow instructions from lab4 for creating the new tool lab5 and also to create the divs.
+ Follow instructions from lab4 for creating divs.
 
  Open lab lab5-tool.js in the editor and add a private method to create the div. As given below:
 
-	
+	_createDiv:function(){
+            
+              var self=this;
+              //Create  Divs named card-container
+              self._createDivs('card-container'); //statement from lab4
 
-      _styleElement:function(){
-                var self=this;
-               //Set styling for card-container,add-column and add-row
-                self._setStyle('card-container',"position:relative;border:1px solid yellow;height:85px;width:100px;background:#ffc;border:1px solid yellow;box-shadow:-2px 2px 5px 3px #ccc;color:red !important;overflow:visible !important;background:#ffc !important;text-align: center;width:175px;margin:5px;");
-      }
+              //get the element from the memory using _getElement() method.
+              self._getElement('card-container').text("I am DIV");
+              
+              //append to the DOM
+              $('.ui-content').append(self._getElement('card-container')); 
+	 }
 
  
- Call the method _styleElement from _createDiv ( _createDiv method is implemented in lab4) method:
+ Call the method _createDiv from _create method:
 
- 	  this._styleElement();
+ 	  this._createDiv();
 
 
 Now, run the server.js and open the tool in the browser.
 
-A div with add-column and add-row is displayed in browser.Please inspect the code in browser.
+A div is created in the DOM and appended to the .ui-cointent. Please inspect the code in browser you will see the below DOM element:
+
+ 	<div class="gensler-lab4tool-card-container">
+ 		
+ 	</div>
+
 
  	
 
