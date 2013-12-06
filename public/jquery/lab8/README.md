@@ -1,6 +1,6 @@
 ## What you will Learn?
 
-This Lab-6 teaches you how to create a table in memory and append to the DOM using utility method _createTables.
+This Lab-8 teaches you how to create a table in memory and append to the DOM using utility method _createTables.
 
 
 ## Instructions:
