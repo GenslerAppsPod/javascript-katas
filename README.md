@@ -7,7 +7,7 @@ This project provides a boilerplate and guide for exercising your javascript ski
 3. Install the latest version of node if you have not already.
 4. Install the npm modules.
 5. Practice some Labs.
-6. Certain steps to do before pushing code to your barnch on github is, 
+6. Certain steps to do before pushing code to your branch on github is, 
 
         git add .
     
