@@ -1,6 +1,6 @@
 ## What you will Learn?
 
-This Lab-5 teaches you how to  get elemnt created in the DOM using the utility function _getElement().
+This Lab-5 teaches you how to  get element created in the DOM using the utility function _getElement().
 
 
 
