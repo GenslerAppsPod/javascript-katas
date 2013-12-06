@@ -1,13 +1,13 @@
 ## What you will Learn?
 
-This Lab-9 teaches you how to inject some html in existing DOM element using the utility function _inhectHtml().
+This Lab-9 teaches you how to inject some html in existing DOM element using the utility function _injectHtml().
 
 
 ## Instructions:
 
 Create the new tool.
 
- Open js in the editor and add a private method _createDiv:
+ Open .js in the editor and add a private method _createDiv():
 
 	  _createDiv:function(){
             
