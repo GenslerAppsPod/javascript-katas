@@ -1,6 +1,6 @@
 ## What you will Learn?
 
-This Lab-5 teaches you how to  get elemnt created in the DOM using the utility function _getElement() and how to set the style using utility method _setStyle().
+This Lab-5 teaches you how to  get elemnt created in the DOM using the utility function _getElement().
 
 
 
