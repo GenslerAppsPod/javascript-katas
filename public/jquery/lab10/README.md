@@ -20,7 +20,7 @@ Create the new tool.
  	console.log("Changing the title from options...");
 
 
- Now, open the tool in the browse,clicking on the create button prints the console message.
+ Now, open the tool in the browser,clicking on the create button prints the console message.
 
  
 
