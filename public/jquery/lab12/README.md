@@ -1,6 +1,6 @@
 ## What you will Learn?
 
-This Lab-12 teaches how to use combine deffered promise obejct.
+This Lab-12 teaches combining deffered promise.
 
 This lab illustrate how to use nested ajax calls with deffered object.
 
@@ -34,7 +34,7 @@ Also, you will come to know use of $.when().
                 });
         },
 
-Call the method _jsonDoubleCall from _create method:
+Call the method _jsonDoubleCall() from _create() method:
 
   	this._jsonDoubleCall();
 
