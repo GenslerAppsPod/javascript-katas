@@ -20,7 +20,7 @@ This Lab-13 teaches you how to create the custom promises with deffered object.
 
 		 var promise = this._timeoutPromise(1000, 'Boom!');
 		 promise.done(function(s) {
-		    console.info(s);
+		    console.log(s);
 		 });
 
   
