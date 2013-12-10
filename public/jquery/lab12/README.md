@@ -27,7 +27,6 @@ Also, you will come to know use of $.when().
                 });
 
                 //executed when both the ajax call results are available.
-                
                 $.when(promise1,promise2).done(function(result1,result2){
                 		//do something with result1 and result2
                         console.log(result1,result2);
