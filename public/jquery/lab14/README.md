@@ -27,7 +27,7 @@ This lab code makes sense for long-running, multi-stage processes like dowlnload
                 return deferred.promise();
     },
 
-Also, add the below codd at the end of the _create() method:
+Also, add the below code at the end of the _create() method:
 
      //get custom promise returned by the _intervalPromise() method.
      var notifyingPromise = this._intervalPromise(500, 5);
