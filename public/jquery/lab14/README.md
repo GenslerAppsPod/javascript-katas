@@ -1,6 +1,6 @@
 ## What you will Learn?
 
-This Lab-14 teaches you how to monitor progress with process(),notify() methods.
+This Lab-14 teaches you how to monitor progress with process() and notify() methods.
 
 This lab code makes sense for long-running, multi-stage processes like dowlnloading and uploading
 
