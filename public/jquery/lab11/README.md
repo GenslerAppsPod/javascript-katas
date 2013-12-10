@@ -23,7 +23,7 @@ Create an ajax call by using this,
           return promise;
         },
 
- Ajax call will return the promise object.
+ By default Ajax call will return the promise object.
 
  Call the method like this,
 
