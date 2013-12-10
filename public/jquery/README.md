@@ -22,3 +22,13 @@ All of our custom tools are built using the jQuery Widget Factory. Before doing 
   <a href="lab9/README.md"> - Lab 9: Inject html.</a>
   
   <a href="lab10/README.md"> - Lab 10: Set options.</a>
+
+  <a href="lab11/README.md"> - Lab 11: JQuery deffered object.</a>
+
+  <a href="lab12/README.md"> - Lab 12: Combining promises.</a>
+
+  <a href="lab13/README.md"> - Lab 13: Custom promises with Deffered.</a>
+
+  <a href="lab14/README.md"> - Lab 14: Monitoring progress using deferred and promises.</a>
+
+  <a href="lab15/README.md"> - Lab 15: Chaining and transforming promises.</a>
