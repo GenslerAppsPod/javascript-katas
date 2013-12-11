@@ -40,5 +40,3 @@ All of our custom tools are built using the jQuery Widget Factory. Before doing 
   <a href="lab18/README.md"> - Lab 18: Change callback.</a>
 
   <a href="lab19/README.md"> - Lab 19: Animation.</a>
-
-  <a href="lab20/README.md"> - Lab 20: Changetoogle.</a>
