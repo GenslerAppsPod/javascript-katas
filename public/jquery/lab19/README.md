@@ -1,6 +1,6 @@
  What you will Learn?
 
-This Lab-19 teaches you how to do Animation.
+This Lab-19 teaches you how to define animate() method.
 
 
 ## Instructions:
