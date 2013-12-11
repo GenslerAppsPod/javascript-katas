@@ -19,7 +19,7 @@ This Lab-15 teaches you how to do chaining and transforming promises.
         _localDouble: function (val){
             var deferred = $.Deferred();
             deferred.resolve(val * 2);
-           return deferred.promise();
+            return deferred.promise();
          },
 
  Call the method like this,
