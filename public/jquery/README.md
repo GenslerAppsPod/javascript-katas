@@ -32,3 +32,13 @@ All of our custom tools are built using the jQuery Widget Factory. Before doing 
   <a href="lab14/README.md"> - Lab 14: Monitoring progress using deferred and promises.</a>
 
   <a href="lab15/README.md"> - Lab 15: Chaining and transforming promises.</a>
+
+  <a href="lab16/README.md"> - Lab 16: Trigger method in JQuery Widget Factory.</a>
+
+  <a href="lab17/README.md"> - Lab 17: Loading callback.</a>
+
+  <a href="lab18/README.md"> - Lab 18: Change callback.</a>
+
+  <a href="lab19/README.md"> - Lab 19: Animation.</a>
+
+  <a href="lab20/README.md"> - Lab 20: Changetoogle.</a>
