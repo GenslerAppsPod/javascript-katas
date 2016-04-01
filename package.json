@@ -2,27 +2,36 @@
     "name": "javascript-katas",
     "description": "Node app for javascript exercises",
     "author": "Brendan Boyd <brendan_boyd@gensler.com>",
-	"maintainers" : [
-		"Brendan Boyd <brendan_boyd@gensler.com>",
-		"Kirk Austin <kirk_austin@gensler.com>"
-	],
-    "version": "0.1.0",
+    "maintainers" : [
+        "Brendan Boyd <brendan_boyd@gensler.com>",
+	"Kirk Austin <kirk_austin@gensler.com>",
+	"Marlon Evangelista <marlon_evangelista@gensler.com>"
+    ],
+    "version": "0.2.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/GenslerAppsPod/javascript-katas.git"
     },
     "dependencies": {
-        "config": "0.4.x",
-        "bunyan": "0.21.x",
-        "restify": "2.4.x"
+        "bunyan": "1.8.0",
+        "config": "1.19.0",
+	"grunt": "0.4.5",
+	"grunt-contrib-clean": "0.7.0",
+	"grunt-contrib-concat": "1.0.0",
+	"grunt-contrib-csslint": "1.0.0",
+	"grunt-contrib-cssmin": "1.0.1",
+	"grunt-contrib-jshint": "1.0.0",
+	"grunt-contrib-uglify": "1.0.1",        
+        "restify": "4.0.4"
     },
     "engines" : {
-        "node" : "0.10.x"
+        "node" : "4.4.x"
     },
     "keywords": [
         "gensler",
         "node",
-        "rest",
-		"authentication"
-    ]
+        "rest"
+    ],
+    license: "UNLICENSED",
+    private: true
 }
