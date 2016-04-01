@@ -32,6 +32,6 @@
         "node",
         "rest"
     ],
-    license: "UNLICENSED",
-    private: true
+    "license": "UNLICENSED",
+    "private": true
 }
