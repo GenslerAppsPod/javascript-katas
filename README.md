@@ -5,19 +5,19 @@ This project provides a boilerplate and guide for exercising your javascript ski
 1. Fork a copy of the master repo. 
 2. Create a branch from master and give it a personalized name. 
 3. Install [Node (LTS version)](https://nodejs.org/en/) if you have not already.
-4. Go into the project directory and install the npm modules (`sudo npm install`).
-5. Practice some Labs.
-6. Commit locally:
+4. Globally install grunt (`sudo npm install -g grunt-cli`).
+5. Go into the project directory and install the npm modules (`sudo npm install`).
+6. Practice some Labs.
+7. Commit locally:
 
         git add .
-    
         git commit -am "Message about app"
 
-7. To push your code to Github:
+8. To push your code to Github:
 
         git push
        
-8. [Make a pull request](https://help.github.com/articles/using-pull-requests) for someone to review your code. 
+9. [Make a pull request](https://help.github.com/articles/using-pull-requests) for someone to review your code. 
 
 ## JQuery Labs
 
