@@ -3,6 +3,6 @@
 module.exports = {
     environment: 'localdev',
     server: {
-        port: 8880
+        port: 8888
     }
 }
